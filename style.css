@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;
+}
+#bg{
+    background-image:url("https://c.tenor.com/XrdpIPMSbEEAAAAC/emoji-laugh.gif");
+    background-size:cover;
+    background-size:100%;
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    top:0;
+    left:0;
+    opacity:0.3;
+    display:none;
+}
+#con{
+    width:100%;
+    background-color:none;
+    position:fixed;
+    top:25vh;
+    left:0;
+    font-size:30px;
+    text-align:center;
+    padding:15px;
+}
+#yes, #no{
+    background-color:ref;
+    position:fixed;
+    font-size:30px;
+    top:50vh;
+    width:20vw;
+}
+#yes{
+    left:20vw;
+}
+#no{
+    right:20vw;
+}
